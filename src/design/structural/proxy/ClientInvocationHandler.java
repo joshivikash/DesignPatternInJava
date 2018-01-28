@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 public class ClientInvocationHandler implements InvocationHandler {
-    Server server;
+    private Server server;
 
     public ClientInvocationHandler() {
         this.server = new ServerImpl();
