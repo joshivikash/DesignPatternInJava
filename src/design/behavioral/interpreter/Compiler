@@ -1,0 +1,1 @@
+We write a grammar file, and the parser like "ANTLR" parses the input and generates the AST and by traversing the AST we interpret the language.
