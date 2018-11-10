@@ -10,7 +10,7 @@ public class Subscriber implements Observer {
     }
 
     @Override
-    public void observer(Observable observable) {
+    public void observe(Observable observable) {
         topic = (Topic) observable;
     }
 

@@ -12,7 +12,7 @@ public class Topic implements Observable {
     @Override
     public void add(Observer observer) {
         observers.add(observer);
-        observer.observer(this);
+        observer.observe(this);
     }
 
     @Override
