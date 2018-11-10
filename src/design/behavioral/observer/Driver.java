@@ -12,9 +12,7 @@ public class Driver {
         dataStructureTopics.addNewArticle("Minimum Spanning Tree");
 
         Topic algorithms = new Topic();
-        student1 = new Subscriber("Vikash");
         algorithms.add(student1);
-
         algorithms.addNewArticle("Heap Sort");
     }
 }
